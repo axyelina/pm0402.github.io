@@ -1,0 +1,35 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Мой сайт на хьюго"
+theme = "hugo-swift-theme"
+
+[menu]
+  [[menu.main]]
+    name = "Контакты"
+    url = "about/"
+    weight = 2
+  [[menu.main]]
+    name = "Разработка"
+    url = "/development/"
+    weight = 3
+  [[menu.main]]
+    name = "Задания"
+    url = "/ispo/"
+    weight = 4
+  [[menu.main]]
+    name = "Галерея"
+    url = "/media/"
+    weight = 5
+
+author = "Одегова Ангелина"
+copyright = "Copyright © 2020 з128/1."
+canonifyurls = true
+paginate = 4
+
+
+  [[params.authors]]
+    name = "Лина" # if fullName 👇🏻 isn't set, name will be displayed on author card
+    fullName = "Одегова Ангелина" # optional. If set, it will display on author card
+    bio = "It's time to flex. Write a short or not-so-short summary about yourself."
+    photo = "myPhotoFile.jpg"
+    url = "https://myURLofChoice.domain"

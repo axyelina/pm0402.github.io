@@ -1,0 +1,26 @@
+{{- $cryptoAddresses := .Site.Params.crypto }}
+{{- with $cryptoAddresses }}
+<script src="/js/qrcode.js"></script>
+<div class="crypto pt-1">
+  <div class="crypto_rows">
+    {{- range . }}
+    {{- $taddress := T "address" }}
+    {{- $tcopy := T "address" }}
+    {{- $tooltip := printf "%s%s%s" $tcopy .name $taddress }}
+    <div class="crypto_row" data-address="{{ .address }}">
+      {{- $sn := .shortName -}}
+      <span class="crypto_name">
+        <span>
+          <img src="{{ .icon }}" alt="{{ $sn }} logo" class="crypto_logo" />
+        </span>
+        {{ $sn }}
+      </span>
+      <span class="crypto_copy" title="{{ $tooltip }}">{{ partial "sprite" (dict "icon" "copy") }}</span>
+    </div>
+    {{- end }}
+  </div>
+  <div class="crypto_pad">
+    <canvas class="crypto_qr"></canvas>
+  </div>
+</div>
+{{- end }}
