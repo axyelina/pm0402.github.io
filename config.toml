@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "Мой сайт на хьюго"
 theme = "hugo-swift-theme"
