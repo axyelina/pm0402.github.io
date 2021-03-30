@@ -10,4 +10,4 @@ image: 'media.jpg'
 
 {{< audio src="/audio/BritneySpears.mp3" class="audio" >}}
 
-{{< gallery "/images/artist.jpg, /images/ispo.jpg, /images/stuck.jpg" "jpg gallery image::jpg2 gallery image::hgh" >}}
+{{< gallery "images/artist.jpg, images/ispo.jpg, images/stuck.jpg" "jpg gallery image::jpg2 gallery image::hgh" >}}
