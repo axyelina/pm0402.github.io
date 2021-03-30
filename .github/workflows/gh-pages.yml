@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - gh-pages  # Set a branch to deploy
 
 jobs:
   deploy:
@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: axyelina/actions-hugo@v2
         with:
           hugo-version: 'latest'
           # extended: true
@@ -24,7 +24,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: axyelina/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
