@@ -4,9 +4,5 @@ https://github.com/axyelina/hugo-uwu Моя страница ВКонтакте.
 Материалы в папке сайта Исходные материалы сохранены в отдельной папке проекта. Папка static. Мультимедиа размещены на сайте. На странице Мультимедиа
 Логотип сайта Логотип сделан при помощи платной версии ресурса fotor.com
 Шаблон HTML-документа шапка - лого + заголовок футер - ФИО + группа
-CSS-файл со стилями Стили хранятся в виде sass-файликов При билде проекта они попадают в один автоматически сгенерированный CSS-файл: Проверка HTML-кода на валидность.</description></item><item><title>Хостинг проекта</title><link>/pm0402.github.io/development/hosting/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>/pm0402.github.io/development/hosting/</guid><description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description></item><item><title>Галерея фото и видео</title><link>/pm0402.github.io/media/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>/pm0402.github.io/media/</guid><description>looks like this</description></item></channel></rss>
+CSS-файл со стилями Стили хранятся в виде sass-файликов При билде проекта они попадают в один автоматически сгенерированный CSS-файл: Проверка HTML-кода на валидность.</description></item><item><title>Хостинг проекта</title><link>/pm0402.github.io/development/hosting/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>/pm0402.github.io/development/hosting/</guid><description>Github pages Все хостится на бесплатном сервисе github pages
+Была организована выкладка страничек с помощью опенсорсного проекта peaceiris</description></item><item><title>Галерея фото и видео</title><link>/pm0402.github.io/media/</link><pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate><guid>/pm0402.github.io/media/</guid><description>looks like this</description></item></channel></rss>
