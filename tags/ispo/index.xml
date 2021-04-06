@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ispo on Мой сайт на хьюго</title><link>/pm0402.github.io/tags/ispo/</link><description>Recent content in ispo on Мой сайт на хьюго</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="/pm0402.github.io/tags/ispo/index.xml" rel="self" type="application/rss+xml"/><item><title>Задания для ПМ 04.02</title><link>/pm0402.github.io/ispo/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><guid>/pm0402.github.io/ispo/</guid><description>Вариант 18
-Материалы в папке сайта Исходные материалы сохранены в отдельной папке проекта. Мультимедиа размещены на сайте.
-Логотип сайта Надо сделац
+Материалы в папке сайта Исходные материалы сохранены в отдельной папке проекта. Папка static. Мультимедиа размещены на сайте. На странице Мультимедиа
+Логотип сайта Логотип сделан при помощи платной версии ресурса fotor.com
 Шаблон HTML-документа шапка - лого + заголовок футер - ФИО + группа
-CSS-файл со стилями Проверить HTML-код на валидность.
-Тема На выбор.
-params: CopyrightHTML: &amp;#34;Copyright &amp;amp;#xA9; 2013 John Doe. All Rights Reserved.&amp;#34; TwitterUser: &amp;#34;spf13&amp;#34; SidebarRecentLimit: 5 Within a footer layout, you might then declare a &amp;lt;footer&amp;gt; which is only provided if the CopyrightHTML parameter is provided, and if it is given, you would declare it to be HTML-safe, so that the HTML entity is not escaped again.</description></item></channel></rss>
+CSS-файл со стилями Стили хранятся в виде sass-файликов При билде проекта они попадают в один автоматически сгенерированный CSS-файл: Проверка HTML-кода на валидность.</description></item></channel></rss>
